@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="/static/CSS/style.css">
+    <title>Speech Emotion Recognition</title>
+
+  </head>
+  <body>
+    <a href="/">
+      <img src = "/static/CSS/images/head.png" width="100%">
+    </a>
+    <br>
+
+ {% block body %}
+
+  <!--
+  Empty Div Left
+  -->
+  <div class="row">
+      <div class="column_home" id="left-col" align="center">
+        <div style="width:70%; text-align:justify; align-content:center; display:inline-block;">
+          <br>
+          <br>
+          <br>
+        </div>
+      </div>
+
+      <!--
+      Audio Interview presentation
+      -->
+      <div class="column_home" id="left-col" align="center">
+        <img src = "/static/CSS/images/audio.png" width="100%">
+        <div style="width:70%; text-align:justify; align-content:center; display:inline-block;">
+          <p> Use the speech emotion analyzer to answer a simple question and get a feedback on how our algorithm interprets your vocal emotions.</p>
+          <br>
+          <p> You will be provided a feedback on your vocal emotions such as :
+          <ul>
+            <li>Anger</li>
+            <li>Happiness</li>
+            <li>Fear</li>
+            <li>Sadness</li>
+            <li>Surprise</li>
+            <li>Disgust</li>
+          </ul>
+          <br>
+          <br>
+
+        </div>
+        <form action="/audio_index" method="post" align="center">
+          <input type="submit" name="audio_index" value="Audio Interview" align="center">
+        </form>
+      </div>
+
+      <!--
+      Empty Div Right
+      -->
+      <div class="column_home" id="left-col" align="center">
+         <div style="width:70%; text-align:justify; align-content:center; display:inline-block;">
+           <br>
+         <br>
+         </div>
+     </div>
+
+  </div>
+
+    
+</div>
+
+<br>
+<br>
+<br>
+
+      {# End of block "body" #}
+    {% endblock %}
+
+  </body>
+</html>
