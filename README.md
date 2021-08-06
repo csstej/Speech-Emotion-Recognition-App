@@ -12,9 +12,9 @@ The tool can be accessed from the WebApp repository, by installing the requireme
 
 
 ## Table of Content :
-- [I. Context](https://github.com/maelfabien/Multimodal-Emotion-Recognition/blob/master/README.md#i-context)
-- [II. Data Sources](https://github.com/maelfabien/Multimodal-Emotion-Recognition/blob/master/README.md#ii-data-sources)
-- [III. Output](https://github.com/maelfabien/Multimodal-Emotion-Recognition/blob/master/README.md#iii-output)
+- [I. Context](https://github.com/csstej/Speech-Emotion-Recognition-App/master/README.md#i-context)
+- [II. Data Sources](https://github.com/csstej/Speech-Emotion-Recognition-App/master/README.md#ii-data-sources)
+- [III. Output](https://github.com/csstej/Speech-Emotion-Recognition-App/master/README.md#iii-output)
 
 
 In this project, we are exploring state of the art models in multimodal sentiment analysis. We have chosen to explore sound inputs and develop a model that gathers the information and displays it in a clear and interpretable way.
