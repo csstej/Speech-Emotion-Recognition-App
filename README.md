@@ -2,7 +2,7 @@
 A Speech emotion Recognition Application made in FLASK which detects emotion in audio input.
 
 
-We developped a speech emotion recognition platform to analyze the emotions of speakers.
+Developped a speech emotion recognition platform to analyze the emotions of speakers.
 
 We analye vocal emotions, using mostly deep learning based approaches. We deployed a web app using Flask :
 
