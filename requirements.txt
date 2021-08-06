@@ -22,7 +22,7 @@ wordcloud
 numpy
 pandas
 opencv-python
-time
+python-time
 re
 os
 argparse
